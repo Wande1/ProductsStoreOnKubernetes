@@ -34,7 +34,7 @@ spec:
         persistentVolumeClaim:
           claimName: mssql-pv-claim
 ---
-apiVersion: v1
+apiVersion: v1.17.0
 kind: Service
 metadata:
   name: mssql-service
